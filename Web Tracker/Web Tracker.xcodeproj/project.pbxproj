@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7244C942721FD2600569099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244C932721FD2600569099 /* AppDelegate.swift */; };
+		C7244C962721FD2600569099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244C952721FD2600569099 /* SceneDelegate.swift */; };
+		C7244C992721FD2600569099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7244C972721FD2600569099 /* LaunchScreen.storyboard */; };
+		C7244C9C2721FD2600569099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7244C9A2721FD2600569099 /* Main.storyboard */; };
+		C7244CA52721FD2600569099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244CA42721FD2600569099 /* AppDelegate.swift */; };
+		C7244CA82721FD2600569099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7244CA62721FD2600569099 /* Main.storyboard */; };
+		C7244CB02721FD2600569099 /* Web Tracker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C7244CAF2721FD2600569099 /* Web Tracker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C7244CBA2721FD2600569099 /* Web Tracker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C7244CB92721FD2600569099 /* Web Tracker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C7244CC02721FD2600569099 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C7244C842721FD2500569099 /* Main.html */; };
+		C7244CC12721FD2600569099 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C7244C842721FD2500569099 /* Main.html */; };
+		C7244CC22721FD2600569099 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244C862721FD2500569099 /* Icon.png */; };
+		C7244CC32721FD2600569099 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244C862721FD2500569099 /* Icon.png */; };
+		C7244CC42721FD2600569099 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C7244C872721FD2500569099 /* Style.css */; };
+		C7244CC52721FD2600569099 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C7244C872721FD2500569099 /* Style.css */; };
+		C7244CC62721FD2600569099 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244C882721FD2500569099 /* Script.js */; };
+		C7244CC72721FD2600569099 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244C882721FD2500569099 /* Script.js */; };
+		C7244CC82721FD2600569099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244C892721FD2500569099 /* ViewController.swift */; };
+		C7244CC92721FD2600569099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244C892721FD2500569099 /* ViewController.swift */; };
+		C7244CCA2721FD2600569099 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244C8B2721FD2600569099 /* SafariWebExtensionHandler.swift */; };
+		C7244CCB2721FD2600569099 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7244C8B2721FD2600569099 /* SafariWebExtensionHandler.swift */; };
+		C7244CE72721FD2700569099 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CDD2721FD2700569099 /* icon16.png */; };
+		C7244CE82721FD2700569099 /* iconGray.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CDE2721FD2700569099 /* iconGray.png */; };
+		C7244CE92721FD2700569099 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244CDF2721FD2700569099 /* popup.js */; };
+		C7244CEA2721FD2700569099 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE02721FD2700569099 /* popup.html */; };
+		C7244CEB2721FD2700569099 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE12721FD2700569099 /* icon48.png */; };
+		C7244CEC2721FD2700569099 /* jquery-3.4.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE22721FD2700569099 /* jquery-3.4.1.min.js */; };
+		C7244CED2721FD2700569099 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE32721FD2700569099 /* icon128.png */; };
+		C7244CEE2721FD2700569099 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE42721FD2700569099 /* manifest.json */; };
+		C7244CEF2721FD2700569099 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE52721FD2700569099 /* popup.css */; };
+		C7244CF02721FD2700569099 /* backgroundBrowsered.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE62721FD2700569099 /* backgroundBrowsered.js */; };
+		C7244CF12721FD2700569099 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CDD2721FD2700569099 /* icon16.png */; };
+		C7244CF22721FD2700569099 /* iconGray.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CDE2721FD2700569099 /* iconGray.png */; };
+		C7244CF32721FD2700569099 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244CDF2721FD2700569099 /* popup.js */; };
+		C7244CF42721FD2700569099 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE02721FD2700569099 /* popup.html */; };
+		C7244CF52721FD2700569099 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE12721FD2700569099 /* icon48.png */; };
+		C7244CF62721FD2700569099 /* jquery-3.4.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE22721FD2700569099 /* jquery-3.4.1.min.js */; };
+		C7244CF72721FD2700569099 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE32721FD2700569099 /* icon128.png */; };
+		C7244CF82721FD2700569099 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE42721FD2700569099 /* manifest.json */; };
+		C7244CF92721FD2700569099 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE52721FD2700569099 /* popup.css */; };
+		C7244CFA2721FD2700569099 /* backgroundBrowsered.js in Resources */ = {isa = PBXBuildFile; fileRef = C7244CE62721FD2700569099 /* backgroundBrowsered.js */; };
+		C7F57CD32756E45500590B3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F57CD22756E45500590B3D /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7244CB12721FD2600569099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7244C7E2721FD2500569099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7244CAE2721FD2600569099;
+			remoteInfo = "Web Tracker Extension (iOS)";
+		};
+		C7244CBB2721FD2600569099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7244C7E2721FD2500569099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7244CB82721FD2600569099;
+			remoteInfo = "Web Tracker Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7244CD12721FD2600569099 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C7244CB02721FD2600569099 /* Web Tracker Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CD82721FD2600569099 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C7244CBA2721FD2600569099 /* Web Tracker Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7244C852721FD2500569099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C7244C862721FD2500569099 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C7244C872721FD2500569099 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C7244C882721FD2500569099 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C7244C892721FD2500569099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7244C8B2721FD2600569099 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C7244C902721FD2600569099 /* Web Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7244C932721FD2600569099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7244C952721FD2600569099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7244C982721FD2600569099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7244C9B2721FD2600569099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7244C9D2721FD2600569099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7244CA22721FD2600569099 /* Web Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7244CA42721FD2600569099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7244CA72721FD2600569099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7244CA92721FD2600569099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7244CAA2721FD2600569099 /* Web Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Web Tracker.entitlements"; sourceTree = "<group>"; };
+		C7244CAF2721FD2600569099 /* Web Tracker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Web Tracker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7244CB42721FD2600569099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7244CB92721FD2600569099 /* Web Tracker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Web Tracker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7244CBE2721FD2600569099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7244CBF2721FD2600569099 /* Web Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Web Tracker.entitlements"; sourceTree = "<group>"; };
+		C7244CDD2721FD2700569099 /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = Resources/icon16.png; sourceTree = "<group>"; };
+		C7244CDE2721FD2700569099 /* iconGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconGray.png; path = Resources/iconGray.png; sourceTree = "<group>"; };
+		C7244CDF2721FD2700569099 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		C7244CE02721FD2700569099 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		C7244CE12721FD2700569099 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = Resources/icon48.png; sourceTree = "<group>"; };
+		C7244CE22721FD2700569099 /* jquery-3.4.1.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "jquery-3.4.1.min.js"; path = "Resources/jquery-3.4.1.min.js"; sourceTree = "<group>"; };
+		C7244CE32721FD2700569099 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = Resources/icon128.png; sourceTree = "<group>"; };
+		C7244CE42721FD2700569099 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		C7244CE52721FD2700569099 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		C7244CE62721FD2700569099 /* backgroundBrowsered.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = backgroundBrowsered.js; path = Resources/backgroundBrowsered.js; sourceTree = "<group>"; };
+		C7F57CD22756E45500590B3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Web Tracker (macOS)/Images.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7244C8D2721FD2600569099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244C9F2721FD2600569099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CAC2721FD2600569099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CB62721FD2600569099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7244C7D2721FD2500569099 = {
+			isa = PBXGroup;
+			children = (
+				C7F57CD22756E45500590B3D /* Images.xcassets */,
+				C7244C822721FD2500569099 /* Shared (App) */,
+				C7244C8A2721FD2600569099 /* Shared (Extension) */,
+				C7244C922721FD2600569099 /* iOS (App) */,
+				C7244CA32721FD2600569099 /* macOS (App) */,
+				C7244CB32721FD2600569099 /* iOS (Extension) */,
+				C7244CBD2721FD2600569099 /* macOS (Extension) */,
+				C7244C912721FD2600569099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7244C822721FD2500569099 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C7244C892721FD2500569099 /* ViewController.swift */,
+				C7244C832721FD2500569099 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C7244C832721FD2500569099 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7244C842721FD2500569099 /* Main.html */,
+				C7244C862721FD2500569099 /* Icon.png */,
+				C7244C872721FD2500569099 /* Style.css */,
+				C7244C882721FD2500569099 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7244C8A2721FD2600569099 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C7244CDC2721FD2700569099 /* Resources */,
+				C7244C8B2721FD2600569099 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C7244C912721FD2600569099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7244C902721FD2600569099 /* Web Tracker.app */,
+				C7244CA22721FD2600569099 /* Web Tracker.app */,
+				C7244CAF2721FD2600569099 /* Web Tracker Extension.appex */,
+				C7244CB92721FD2600569099 /* Web Tracker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7244C922721FD2600569099 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C7244C932721FD2600569099 /* AppDelegate.swift */,
+				C7244C952721FD2600569099 /* SceneDelegate.swift */,
+				C7244C972721FD2600569099 /* LaunchScreen.storyboard */,
+				C7244C9A2721FD2600569099 /* Main.storyboard */,
+				C7244C9D2721FD2600569099 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C7244CA32721FD2600569099 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C7244CA42721FD2600569099 /* AppDelegate.swift */,
+				C7244CA62721FD2600569099 /* Main.storyboard */,
+				C7244CA92721FD2600569099 /* Info.plist */,
+				C7244CAA2721FD2600569099 /* Web Tracker.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C7244CB32721FD2600569099 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C7244CB42721FD2600569099 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C7244CBD2721FD2600569099 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C7244CBE2721FD2600569099 /* Info.plist */,
+				C7244CBF2721FD2600569099 /* Web Tracker.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C7244CDC2721FD2700569099 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7244CDD2721FD2700569099 /* icon16.png */,
+				C7244CDE2721FD2700569099 /* iconGray.png */,
+				C7244CDF2721FD2700569099 /* popup.js */,
+				C7244CE02721FD2700569099 /* popup.html */,
+				C7244CE12721FD2700569099 /* icon48.png */,
+				C7244CE22721FD2700569099 /* jquery-3.4.1.min.js */,
+				C7244CE32721FD2700569099 /* icon128.png */,
+				C7244CE42721FD2700569099 /* manifest.json */,
+				C7244CE52721FD2700569099 /* popup.css */,
+				C7244CE62721FD2700569099 /* backgroundBrowsered.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7244C8F2721FD2600569099 /* Web Tracker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7244CD22721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker (iOS)" */;
+			buildPhases = (
+				C7244C8C2721FD2600569099 /* Sources */,
+				C7244C8D2721FD2600569099 /* Frameworks */,
+				C7244C8E2721FD2600569099 /* Resources */,
+				C7244CD12721FD2600569099 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7244CB22721FD2600569099 /* PBXTargetDependency */,
+			);
+			name = "Web Tracker (iOS)";
+			productName = "Web Tracker (iOS)";
+			productReference = C7244C902721FD2600569099 /* Web Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7244CA12721FD2600569099 /* Web Tracker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7244CD92721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker (macOS)" */;
+			buildPhases = (
+				C7244C9E2721FD2600569099 /* Sources */,
+				C7244C9F2721FD2600569099 /* Frameworks */,
+				C7244CA02721FD2600569099 /* Resources */,
+				C7244CD82721FD2600569099 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7244CBC2721FD2600569099 /* PBXTargetDependency */,
+			);
+			name = "Web Tracker (macOS)";
+			productName = "Web Tracker (macOS)";
+			productReference = C7244CA22721FD2600569099 /* Web Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7244CAE2721FD2600569099 /* Web Tracker Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7244CCE2721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker Extension (iOS)" */;
+			buildPhases = (
+				C7244CAB2721FD2600569099 /* Sources */,
+				C7244CAC2721FD2600569099 /* Frameworks */,
+				C7244CAD2721FD2600569099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Tracker Extension (iOS)";
+			productName = "Web Tracker Extension (iOS)";
+			productReference = C7244CAF2721FD2600569099 /* Web Tracker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C7244CB82721FD2600569099 /* Web Tracker Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7244CD52721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker Extension (macOS)" */;
+			buildPhases = (
+				C7244CB52721FD2600569099 /* Sources */,
+				C7244CB62721FD2600569099 /* Frameworks */,
+				C7244CB72721FD2600569099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Tracker Extension (macOS)";
+			productName = "Web Tracker Extension (macOS)";
+			productReference = C7244CB92721FD2600569099 /* Web Tracker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7244C7E2721FD2500569099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C7244C8F2721FD2600569099 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C7244CA12721FD2600569099 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C7244CAE2721FD2600569099 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C7244CB82721FD2600569099 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C7244C812721FD2500569099 /* Build configuration list for PBXProject "Web Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7244C7D2721FD2500569099;
+			productRefGroup = C7244C912721FD2600569099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7244C8F2721FD2600569099 /* Web Tracker (iOS) */,
+				C7244CA12721FD2600569099 /* Web Tracker (macOS) */,
+				C7244CAE2721FD2600569099 /* Web Tracker Extension (iOS) */,
+				C7244CB82721FD2600569099 /* Web Tracker Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7244C8E2721FD2600569099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CC22721FD2600569099 /* Icon.png in Resources */,
+				C7244C992721FD2600569099 /* LaunchScreen.storyboard in Resources */,
+				C7244CC02721FD2600569099 /* Main.html in Resources */,
+				C7244CC62721FD2600569099 /* Script.js in Resources */,
+				C7244C9C2721FD2600569099 /* Main.storyboard in Resources */,
+				C7244CC42721FD2600569099 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CA02721FD2600569099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CC32721FD2600569099 /* Icon.png in Resources */,
+				C7244CC52721FD2600569099 /* Style.css in Resources */,
+				C7244CA82721FD2600569099 /* Main.storyboard in Resources */,
+				C7F57CD32756E45500590B3D /* Images.xcassets in Resources */,
+				C7244CC72721FD2600569099 /* Script.js in Resources */,
+				C7244CC12721FD2600569099 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CAD2721FD2600569099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CF12721FD2700569099 /* icon16.png in Resources */,
+				C7244CF42721FD2700569099 /* popup.html in Resources */,
+				C7244CF32721FD2700569099 /* popup.js in Resources */,
+				C7244CF22721FD2700569099 /* iconGray.png in Resources */,
+				C7244CF82721FD2700569099 /* manifest.json in Resources */,
+				C7244CF92721FD2700569099 /* popup.css in Resources */,
+				C7244CFA2721FD2700569099 /* backgroundBrowsered.js in Resources */,
+				C7244CF52721FD2700569099 /* icon48.png in Resources */,
+				C7244CF62721FD2700569099 /* jquery-3.4.1.min.js in Resources */,
+				C7244CF72721FD2700569099 /* icon128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CB72721FD2600569099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CE72721FD2700569099 /* icon16.png in Resources */,
+				C7244CEA2721FD2700569099 /* popup.html in Resources */,
+				C7244CE92721FD2700569099 /* popup.js in Resources */,
+				C7244CE82721FD2700569099 /* iconGray.png in Resources */,
+				C7244CEE2721FD2700569099 /* manifest.json in Resources */,
+				C7244CEF2721FD2700569099 /* popup.css in Resources */,
+				C7244CF02721FD2700569099 /* backgroundBrowsered.js in Resources */,
+				C7244CEB2721FD2700569099 /* icon48.png in Resources */,
+				C7244CEC2721FD2700569099 /* jquery-3.4.1.min.js in Resources */,
+				C7244CED2721FD2700569099 /* icon128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7244C8C2721FD2600569099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CC82721FD2600569099 /* ViewController.swift in Sources */,
+				C7244C942721FD2600569099 /* AppDelegate.swift in Sources */,
+				C7244C962721FD2600569099 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244C9E2721FD2600569099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CC92721FD2600569099 /* ViewController.swift in Sources */,
+				C7244CA52721FD2600569099 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CAB2721FD2600569099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CCA2721FD2600569099 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7244CB52721FD2600569099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7244CCB2721FD2600569099 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7244CB22721FD2600569099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7244CAE2721FD2600569099 /* Web Tracker Extension (iOS) */;
+			targetProxy = C7244CB12721FD2600569099 /* PBXContainerItemProxy */;
+		};
+		C7244CBC2721FD2600569099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7244CB82721FD2600569099 /* Web Tracker Extension (macOS) */;
+			targetProxy = C7244CBB2721FD2600569099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7244C842721FD2500569099 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7244C852721FD2500569099 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C7244C972721FD2600569099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7244C982721FD2600569099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C7244C9A2721FD2600569099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7244C9B2721FD2600569099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7244CA62721FD2600569099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7244CA72721FD2600569099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7244CCC2721FD2600569099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7244CCD2721FD2600569099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C7244CCF2721FD2600569099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker.Extension";
+				PRODUCT_NAME = "Web Tracker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7244CD02721FD2600569099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VCP4FPKKG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker.Extension";
+				PRODUCT_NAME = "Web Tracker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7244CD32721FD2600569099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker";
+				PRODUCT_NAME = "Web Tracker";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7244CD42721FD2600569099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker";
+				PRODUCT_NAME = "Web Tracker";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7244CD62721FD2600569099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Web Tracker.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker.Extension";
+				PRODUCT_NAME = "Web Tracker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C7244CD72721FD2600569099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Web Tracker.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VCP4FPKKG4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker.Extension";
+				PRODUCT_NAME = "Web Tracker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C7244CDA2721FD2600569099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Web Tracker.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker";
+				PRODUCT_NAME = "Web Tracker";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C7244CDB2721FD2600569099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Web Tracker.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Web Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Web-Tracker";
+				PRODUCT_NAME = "Web Tracker";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7244C812721FD2500569099 /* Build configuration list for PBXProject "Web Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7244CCC2721FD2600569099 /* Debug */,
+				C7244CCD2721FD2600569099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7244CCE2721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7244CCF2721FD2600569099 /* Debug */,
+				C7244CD02721FD2600569099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7244CD22721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7244CD32721FD2600569099 /* Debug */,
+				C7244CD42721FD2600569099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7244CD52721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7244CD62721FD2600569099 /* Debug */,
+				C7244CD72721FD2600569099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7244CD92721FD2600569099 /* Build configuration list for PBXNativeTarget "Web Tracker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7244CDA2721FD2600569099 /* Debug */,
+				C7244CDB2721FD2600569099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7244C7E2721FD2500569099 /* Project object */;
+}
